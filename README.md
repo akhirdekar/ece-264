@@ -2,7 +2,7 @@
 
 ## Course Overview
 
-This repository contains the projects and assignments from *ECE-264: DSA I* taught by [Professor Von Bargen](https://github.com/cdvonbargen) during the Spring 2025 semester at **The Cooper Union**.
+This repository contains projects and assignments from *ECE-264: DSA I* taught by [Professor Von Bargen](https://github.com/cdvonbargen) during the Spring 2025 semester at **The Cooper Union**.
 
 ## Copyright & Licensing
 
