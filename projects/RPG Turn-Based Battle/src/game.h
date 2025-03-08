@@ -2,7 +2,7 @@
  * @file game.h
  * @brief Header file for the turn-based RPG game.
  *
- * ECE 264: Assignment 1
+ * ECE 264: Project 1
  * @author Abhijeet Khirdekar <abhijeet.khirdekar@cooper.edu>
  * 
  * This file contains the core classes and functions used in the RPG battle simulation.
@@ -16,7 +16,7 @@
  * - Warrior: Special attack (Crushing Blow) deals AP + 15 damage.
  * - Mage: Special attack (Arcane Blast) deals 2×AP + 50% of target's current HP.
  * - Enemy: Special attack (Savage Strike) deals 2×AP damage.
- * - GameManager' Handles game initialization, combat simulation, and result output.
+ * - GameManager Handles game initialization, combat simulation, and result output.
  *
  * Game Rules:
  * - Characters take turns attacking: heroes attack first, then enemies.
