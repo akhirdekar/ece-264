@@ -26,7 +26,7 @@ This is a simple turn-based RPG battle game implemented in C++. The game follows
 ## Installation & Compilation
 ### Requirements:
 - C++ Compiler (g++ or Clang recommended)
-- Make
+- Make or CMake
 
 ## Steps to Compile and Run:
 ```sh
