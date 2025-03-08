@@ -8,13 +8,13 @@ This is a simple turn-based RPG battle game implemented in C++. The game follows
 - **Turn-based combat** where each hero and enemy attacks in order.
 - **Special attacks** automatically activate every third attack.
 - **Battle system** where characters attack the first alive enemy or hero.
-- **File-based character loading** from a structured text file.
+- **File-based character loading** from a sample text file.
 - **Game Manager** that handles character turns and victory conditions.
 
 ## Character Classes & Special Attacks
-- **Archer**: Shoots arrows (base) and performs *Triple Shot* (triples AP).
-- **Warrior**: Swings a sword (base) and executes *Crushing Blow* (+15 AP).
-- **Mage**: Casts fireballs (base) and unleashes *Arcane Blast* (double AP + 50% target’s HP).
+- **Archer**: Shoots arrows (base) and performs *Triple Shot* (triples Attack Points).
+- **Warrior**: Swings a sword (base) and executes *Crushing Blow* (+15 Attack Points).
+- **Mage**: Casts fireballs (base) and unleashes *Arcane Blast* (double Attack Points + 50% target’s Health Points).
 - **Enemy**: Basic attack and *Savage Strike* (doubles AP).
 
 ## Game Rules
@@ -26,7 +26,7 @@ This is a simple turn-based RPG battle game implemented in C++. The game follows
 ## Installation & Compilation
 ### Requirements:
 - C++ Compiler (g++ or Clang recommended)
-- Make (if using Makefile)
+- Make
 
 ### Steps to Compile and Run:
 ```sh
@@ -34,10 +34,10 @@ This is a simple turn-based RPG battle game implemented in C++. The game follows
 git clone https://github.com/yourusername/RPG-Game.git
 cd RPG-Game
 
-# Compile the game (assuming a Makefile is provided)
+# Compile the game 
 make
 
-# Run the game
+# Run
 ./rpg_game
 ```
 If compiling manually without a Makefile:
@@ -63,18 +63,6 @@ Archer Legolas 100 20
 Warrior Conan 150 25
 Mage Merlin 120 30
 Enemy Orc 90 15
-```
-
-## Project Structure
-```
-RPG-Game/
-│── src/                # All C++ source code files
-│── docs/               # Documentation, flowcharts, etc.
-│── test/               # Test cases (if applicable)
-│── .clang-format       # Formatting configuration
-│── .gitignore          # Ignore unnecessary files
-│── Makefile / CMakeLists.txt # Build system
-│── README.md           # Main documentation file
 ```
 
 **Copyright (C) 2025 [Abhijeet Khirdekar](https://github.com/akhirdekar)**
