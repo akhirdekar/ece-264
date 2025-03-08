@@ -1,0 +1,5 @@
+Archer Legolas 40 12
+Warrior Aragorn 50 10
+Mage Gandalf 40 8
+Enemy Goblin 20 5
+Enemy Troll 60 15
