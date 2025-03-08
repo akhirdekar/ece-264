@@ -1,10 +1,10 @@
 # RPG Turn-Based Battle Game
 
 ## Description
-This is a simple turn-based RPG battle game implemented in C++. The game follows a structured turn-based combat system where heroes and enemies take turns attacking each other until one side is fully defeated. It demonstrates C++ fundamentals and object-oriented design (OOP) principles.
+This is a simple turn-based RPG battle game implemented in C++. The game follows a structured turn-based combat system where heroes and enemies take turns attacking each other until one side is fully defeated. Each character has a name, hit points (HP), and attack points (AP) and the game loads characters from a structured input file
 
 ## Features
-- Four character types: **Archer, Warrior, Mage, and Enemy**, each with unique base and special attacks.
+- There are four character types: **Archer, Warrior, Mage, and Enemy**, each with unique base and special attacks.
 - **Turn-based combat** where each hero and enemy attacks in order.
 - **Special attacks** automatically activate every third attack.
 - **Battle system** where characters attack the first alive enemy or hero.
@@ -12,9 +12,9 @@ This is a simple turn-based RPG battle game implemented in C++. The game follows
 - **Game Manager** that handles character turns and victory conditions.
 
 ## Character Classes & Special Attacks
-- **Archer**: Shoots arrows (base) and performs *Triple Shot* (triples Attack Points).
-- **Warrior**: Swings a sword (base) and executes *Crushing Blow* (+15 Attack Points).
-- **Mage**: Casts fireballs (base) and unleashes *Arcane Blast* (double Attack Points + 50% target’s Health Points).
+- **Archer**: Shoots arrows (base) and performs *Triple Shot* (triples AP).
+- **Warrior**: Swings a sword (base) and executes *Crushing Blow* (+15 AP).
+- **Mage**: Casts fireballs (base) and unleashes *Arcane Blast* (double AP + 50% target’s HP).
 - **Enemy**: Basic attack and *Savage Strike* (doubles AP).
 
 ## Game Rules
@@ -28,22 +28,27 @@ This is a simple turn-based RPG battle game implemented in C++. The game follows
 - C++ Compiler (g++ or Clang recommended)
 - Make
 
-### Steps to Compile and Run:
+## Steps to Compile and Run:
 ```sh
+Using Makefile:
+
 # Clone the repository
-git clone https://github.com/yourusername/RPG-Game.git
+git clone https://github.com/akhirdekar/RPG-Game.git
 cd RPG-Game
 
-# Compile the game 
+# Compile the game
 make
 
-# Run
-./rpg_game
+# Run the game with an input file
+./rpg_game data/sample_input.txt
 ```
-If compiling manually without a Makefile:
 ```sh
-g++ -o rpg_game src/*.cpp -I src/
-./rpg_game
+Using CMake:
+
+mkdir build
+cmake -B build/
+cmake --build build/
+./build/rpg_game data/sample_input.txt
 ```
 
 ## How to Play
@@ -57,7 +62,7 @@ Characters are loaded from a text file where each line contains:
 ```txt
 <character_type> <name> <HP> <AP>
 ```
-Example:
+Example (Sample provided in sample_input.txt):
 ```txt
 Archer Legolas 100 20
 Warrior Conan 150 25
