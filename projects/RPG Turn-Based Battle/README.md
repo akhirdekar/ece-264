@@ -69,7 +69,6 @@ Enemy Orc 90 15
 ```
 RPG-Game/
 │── src/                # All C++ source code files
-│── assets/             # (Optional) Images, sounds, additional files
 │── docs/               # Documentation, flowcharts, etc.
 │── test/               # Test cases (if applicable)
 │── .clang-format       # Formatting configuration
@@ -78,9 +77,9 @@ RPG-Game/
 │── README.md           # Main documentation file
 ```
 
-## Contributors
-- **Your Name** (@yourgithubhandle)
+**Copyright (C) 2025 [Abhijeet Khirdekar](https://github.com/akhirdekar)**
 
-## License
-This project is open-source under the MIT License.
+Distributed under the *MIT License*. See [LICENSE](https://github.com/akhirdekar/ece-264/blob/main/LICENSE) for details.
+
+*This project was created as part of the coursework for *ECE-264: Data Strucutres and Algorithms I*, taught by [Professor Von Bargen](https://github.com/cdvonbargen)) during the Spring 2025 semester at The Cooper Union.*
 
