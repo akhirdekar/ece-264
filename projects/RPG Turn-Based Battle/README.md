@@ -70,7 +70,9 @@ Mage Merlin 120 30
 Enemy Orc 90 15
 ```
 
-**Copyright (C) 2025 [Abhijeet Khirdekar](https://github.com/akhirdekar)**
+## Copyright & Licensing
+
+**Copyright (C) 2025 Abhijeet Khirdekar** | <akhirdekar144@gmail.com>
 
 Distributed under the *MIT License*. See [LICENSE](https://github.com/akhirdekar/ece-264/blob/main/LICENSE) for details.
 
