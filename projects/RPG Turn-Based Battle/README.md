@@ -1,7 +1,7 @@
 # RPG Turn-Based Battle Game
 
 ## Description
-This is a simple turn-based RPG battle game implemented in C++. The game follows a structured turn-based combat system where heroes and enemies take turns attacking each other until one side is fully defeated. Each character has a name, hit points (HP), and attack points (AP) and the game loads characters from a structured input file
+This is a simple turn-based RPG battle game implemented in C++. The game follows a structured turn-based combat system where heroes and enemies take turns attacking each other until one side is fully defeated. Each character has a name, hit points (HP), and attack points (AP). The program loads characters from a structured input file
 
 ## Features
 - There are four character types: **Archer, Warrior, Mage, and Enemy**, each with unique base and special attacks.
